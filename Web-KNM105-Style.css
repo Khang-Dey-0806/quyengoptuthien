@@ -72,20 +72,8 @@ margin-bottom:30px;
 
 /* PROGRESS BAR */
 
-.progress{
-width:70%;
-height:30px;
-background:#e4e4e4;
-margin:auto;
-border-radius:20px;
-overflow:hidden;
-}
 
-.progress-bar{
-height:100%;
-width:18%;
-background:linear-gradient(90deg,#ff7a18,#ffb347);
-}
+
 
 /* INFO SECTION */
 
@@ -165,13 +153,15 @@ top:20px;
 right:20px;
 }
 
-.progress {
-  width: 300px;
-  height: 20px;
-  background: #eee;
-  border-radius: 10px;
-  overflow: hidden;
+.progress{
+width:70%;
+height:30px;
+background:#e4e4e4;
+margin:auto;
+border-radius:20px;
+overflow:hidden;
 }
+
 
 .progress-bar {
   height: 100%;
