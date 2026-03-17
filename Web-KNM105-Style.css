@@ -164,3 +164,26 @@ position:absolute;
 top:20px;
 right:20px;
 }
+
+.progress {
+  width: 300px;
+  height: 20px;
+  background: #eee;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.progress-bar {
+  height: 100%;
+  width: 30%;
+  background: linear-gradient(90deg, orange, red);
+
+  /* 200s = 20 lần nhảy (mỗi 10s) */
+  animation: grow 200s steps(10) forwards;
+}
+
+@keyframes grow {
+  from { width: 30%; }
+  to { width: 40%; } /* tăng tổng 10% (20 bước × 0.5%) */
+}
+
